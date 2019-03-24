@@ -47,7 +47,7 @@ Example: Write a function which takes in a string and returns counts of each cha
   * Explicitly write out the steps you need to take
   * This forces you to think about the code you will write before you write it.
 
-```
+```javascript
 function chatCount(str) {
   // make object to return at the end
   // loop over string for each character

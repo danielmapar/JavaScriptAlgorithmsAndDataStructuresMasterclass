@@ -13,7 +13,7 @@
 
 * ![example2](./images/example2.png)
 
-  ```javascript
+```javascript
 var myHash = {};
 myHash['one'] = 1;
 myHash['two'] = 2;
@@ -23,6 +23,7 @@ for (var key in myHash) {
     }
 }
 ```
+
 * The point is to make sure that key is a property defined directly on myHash and not one that was inherited through a prototype chain. Using in doesn't automatically filter out inherited properties, so you get to do it yourself.
 
 ## Arrays
