@@ -15,6 +15,8 @@ class HashTable {
   }
   set(key,value){
     let index = this._hash(key);
+    // Separate Chaining (pushing inner data structure)
+    // Also read about linear probing (pushing to next empty position)
     if(!this.keyMap[index]){
       this.keyMap[index] = [];
     }

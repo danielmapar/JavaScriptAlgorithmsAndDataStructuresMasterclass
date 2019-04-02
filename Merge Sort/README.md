@@ -8,5 +8,5 @@
     * ![bigo](./bigo.PNG) 
 
 *  `log2 4 = 2` or `log2 8 = 3` --> that is how tall the tree is
-* `n` comes from the merge parte `O(n+m)`
+* `n` comes from the merge part `O(n+m)`
 * For a data agnostic algorithm, the best we can do is `O(n log n)`
