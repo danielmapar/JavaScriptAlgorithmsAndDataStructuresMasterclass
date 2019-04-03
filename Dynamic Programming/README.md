@@ -33,5 +33,6 @@
     * Usually done using **iteration**
     * Better **space complexity** can be achieved using tabulation
         * ![tabulated](./tabulated.PNG)
+            * Also `O(n)`
         * A recursive approach can end up in a stack overflow 
         * The iterative version won't face this issue
