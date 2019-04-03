@@ -15,3 +15,8 @@
     * ![vs](./vs.PNG) 
 
 * ![adjancency_list_why](./adjancency_list_why.PNG) 
+
+## Graph Traversal 
+
+* Visiting, updating, checking each vertex in graph
+
