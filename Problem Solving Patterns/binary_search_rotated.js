@@ -10,7 +10,7 @@ var search = function(nums, target) {
 
     while(min <= max) {
         let middle = Math.floor((min+max) / 2);
-                
+
         if (nums[middle] == target)
             return middle;
         
